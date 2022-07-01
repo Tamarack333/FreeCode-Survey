@@ -1,0 +1,30 @@
+body{
+  background: content-box radial-gradient(blue, pink);
+  text-align: center;
+  position: relative;
+}
+h1{
+  font-size: 60px;
+  font-family: 'Splash', cursive;
+  color:rgb(134, 3, 47);
+  margin: 4px;
+}
+#survey-form{
+  background: rgba(134, 3, 47, 0.322);
+  border-radius: 40px;
+  height: 700px;
+  width: 500px;
+  margin: 0 auto;
+}
+label{
+  color:aquamarine;
+  font-family: 'Arima', cursive;
+  display: block;
+  margin-top: 10px;
+}
+.personal-info{
+  width: 100px;
+}
+input{
+  margin: 3px;
+}

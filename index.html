@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Steven's Surveys</title>
+    <link rel = "stylesheet" href = "\\wsl$\Ubuntu-20.04\home\wilson\stoic\freecode\surveyForm\styles.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Splash&display=swap');
+    </style>
+  </head>
+  <body>
+    <h1 id = "title">Surveys for Days</h1>
+    <p id = "description">This is a Survey Form</p>
+    <form id = "survey-form">
+      <label for ="name" id = "name-label">Name</label>
+      <input class = "personal-info" id = "name" type = "text" required = "required" placeholder = "A Groovy Name">
+      <label for ="number" id = "number-label">Number</label>
+      <input class = "personal-info" id = "number" type = "number" min = "10" max = "10" placeholder = "Your digits ;)">
+      <label for ="email" id = "email-label">Email</label>
+      <input class = "personal-info" id = "email" type = "email" required = "required" placeholder = "Your Email">
+      <label for = "dropdown">How Good is this Website?</label>
+      <select id = "dropdown">
+        <option>10/10</option>
+        <option>11/10</option>
+        <option>I would sell my mothers soul to have a website this good</option>
+      </select>
+      <label for = "multi-choice">Is your personal information for sale online?</label>
+      <input id = "multi-choice" type = "radio" value = "Yes" name = "multi choice">Yes
+      <input id = "multi-choice" type = "radio" value = "Most Likely" name = "multi choice">Most Likely
+      <label>Do you like cats or dogs?</label>
+      <input type = "checkbox" value = "cats">Cats!
+      <input type = "checkbox" value = "dogs">Dogs!
+      <label>Anything you want to tell me?</label>
+      <textarea></textarea>
+      <div></div>
+      <button id = "submit" type = "submit">Submit</button>
+    </form>
+  </body>
+</html>
